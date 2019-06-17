@@ -1,6 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import './MyName.css'
+import './MyName.css';
 
 export default function MyName() {
 

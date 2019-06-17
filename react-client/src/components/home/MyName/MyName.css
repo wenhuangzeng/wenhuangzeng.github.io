@@ -1,9 +1,11 @@
 .name-div {
     /* background-color: blanchedalmond; */
+    display: flex;
+    height: 20%
 }
 
 .Typewriter {
     /* font-family: Helvetica, Arial, sans-serif; */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans Light', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     font-size: 3em;
 }

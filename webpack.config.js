@@ -14,16 +14,14 @@ module.exports = {
       {
         test: /\.css$/,
         loader: 'style-loader!css-loader'
-      },
-      {
-        test: /\.png$/,
-        loader: 'url-loader?limit=100000&minetype=image/png'
-      },
-      {
-        test: /\.jpg/,
-        loader: 'file-loader'
-      },
-      {
+      },{
+        test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+        loader: require.resolve("url-loader"),
+        options: {
+            limit: 10000,
+            name: "static/media/[name].[hash:8].[ext]",
+        },
+      },{
         test : /\.jsx?/,
         include : SRC_DIR,
         loader : 'babel-loader',      
