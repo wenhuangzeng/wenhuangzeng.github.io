@@ -9,6 +9,9 @@ export default function Introduction() {
             <br></br>
             <br></br>
             I am a junior studying <b>computer science</b> and <b>applied math</b> with a focus in software engineering and data science.
+            <br></br>
+            <br></br>
+            I also like to workout, skateboard, ball, and drink tea.
         </p>
     </div>
   )
