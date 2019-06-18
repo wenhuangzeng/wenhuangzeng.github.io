@@ -8,3 +8,7 @@ bundle.js
 
 # Dependency directories
 node_modules/
+
+# Semantic UI
+semantic/dist/
+semantic/tasks/
