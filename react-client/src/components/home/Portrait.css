@@ -2,7 +2,7 @@
     display: flex;
     width: 30%;
     height: 80%;
-    background-image: url("../../images/portrait-bg.png");
+    /* background-image: url("../../images/portrait-bg.png"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

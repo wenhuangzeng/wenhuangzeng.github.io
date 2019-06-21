@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import ProjectCard from '../components/work/ProjectCard/ProjectCard';
 
 export default function WorkPage() {
   return (
-    <div>
-      What I have done
-    </div>
+    <ProjectCard 
+      name={"whatt"}
+      description={"description123"} 
+      image={require('../images/portrait-bg.png')}
+      tools={['tool1', 'tool2']}
+    />
   )
 }

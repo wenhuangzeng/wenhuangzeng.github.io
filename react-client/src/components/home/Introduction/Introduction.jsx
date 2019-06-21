@@ -1,9 +1,10 @@
 import React from 'react';
 import './Introduction.css'
+import { Container } from 'semantic-ui-react'
 
 export default function Introduction() {
   return (
-    <div className={"introduction-div"}>
+    <Container fluid className={"introduction-div"}>
         <p>
             I was born in China and moved to Queens when I turned nine. Currently, I am in Providence to attend <b>Brown University</b>.
             <br></br>
@@ -13,6 +14,6 @@ export default function Introduction() {
             <br></br>
             I also like to workout, skateboard, ball, and drink tea.
         </p>
-    </div>
+    </Container>
   )
 }
