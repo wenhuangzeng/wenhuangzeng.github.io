@@ -1,0 +1,26 @@
+.HomeContainer {
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.AboutMe {
+    height: 65%;
+    vertical-align: middle;
+}
+
+.Cover {
+    height: 65%;
+    margin-right: 2%;
+    // margin-top: 1%;
+}
+
+@media (max-width: 1050px) {
+    .AboutMe {
+        height: 80%;
+    }
+    .Cover {
+        // position: fixed !important;
+        height: 80%;
+        margin-right: 0%;
+    }
+}

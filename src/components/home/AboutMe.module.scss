@@ -1,0 +1,54 @@
+.Typewriter {
+    font-size: 3rem;
+    line-height: 0.8em;
+
+    mark {
+        background-color: #25C7BA;
+        color: #fff;
+        font-weight: 400;
+        display: inline-block;
+        line-height: 0.1em;
+        padding-bottom: 0.7em;
+        transition: 0.8s ease-out;
+        -webkit-transition: 0.8s ease-out;
+      }
+
+}
+
+.Typewriter:hover {
+    mark {
+        background-color: #E04EFD;
+        line-height: 0.1em;
+        padding-bottom: 0em;
+        padding-top: 0.7em;
+    }
+}
+
+.Paragraphs {
+    font-size: 1.2rem;
+    span {
+        font-weight: 600;
+    }
+}
+
+.TopRow {
+    height: 25%;
+}
+
+.CenterRow {
+    height: 60%;
+}
+
+.BottomRow {
+    height: 15%;
+}
+
+
+@media (max-width: 1050px) {
+    h1 {
+        font-size: 1rem;
+    }
+    .Typewriter {
+        font-size: 2rem;
+    }
+}
