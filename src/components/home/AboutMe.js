@@ -12,7 +12,7 @@ const AboutMe = () => (
             <Typewriter
             options={{
                 strings: ['<mark>Wenhuang Zeng</mark>', '<mark>WEN-hwahng ZENG</mark>', '<mark>曾文煌</mark>'],
-                autoStart: false,
+                autoStart: true,
                 loop: true
             }}
             />
@@ -22,10 +22,10 @@ const AboutMe = () => (
         <Grid.Row className={styles.CenterRow}>
             <Container fluid className={styles.Paragraphs}>
             <p>
-                I'm a junior at <span>Brown University</span> majoring in <span>computer science</span> and <span>applied math</span> with a focus in <span>software engineering</span> and <span>data science</span>. 
+                I'm a junior at <span>Brown University</span> majoring in <span>computer science</span> and <span>applied math</span>. My passion in tech is to create visually interactive and problem-solving softwares that are driven by <span>data science</span> and <span>human–computer interaction</span>.
                 <br></br>
                 <br></br>
-                This past summer, I was a software engineering <span>intern</span> at <span>Johnson & Johnson</span>. Currently, I am a <span>researcher</span> at <span>Brown AI Lab</span> and the <span>co-president</span> of <span>China Care Brown</span>.
+                This past summer, I was a <span>software engineering intern</span> at Johnson & Johnson. Currently, I am a <span>researcher</span> at Brown AI Lab and the <span>co-president</span> of China Care Brown.
                 <br></br>
                 <br></br>
                 Things I like to do in my free time include cooking, working out, skateboarding, and drinking tea.
