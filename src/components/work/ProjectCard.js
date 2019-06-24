@@ -1,11 +1,11 @@
 import React from 'react';
 import { Button, Card, Image, Header, Modal } from 'semantic-ui-react'
 import styles from './ProjectCard.module.scss';
-import ProjectsPage from '../../../pages/projects';
+import ProjectsPage from '../../pages/projects';
 
 const ProjectCard = (props) => (
 
-  <Card>
+  <Card className={styles.Card}>
     <Image src={props.image} wrapped ui={false} className={styles.Image}/>
     <Card.Content>
       <Card.Header>
@@ -23,7 +23,7 @@ const ProjectCard = (props) => (
     <Card.Content extra>
       
 
-    <Modal trigger={<Button>More</Button>}>
+    <Modal trigger={<Button fluid>More</Button>}>
     <Modal.Header>{props.name}</Modal.Header>
     <Modal.Content image>
       <Image wrapped size='medium' src={props.image} />

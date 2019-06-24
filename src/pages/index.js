@@ -12,9 +12,9 @@ const IndexPage = () => (
     <Helmet>
         <title>W|Z</title>
         <meta name="description" content="Hi there!" />
-        {/* <meta name="viewport" content="width=device-width, initial-scale=1.0"> */}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Wenhuang Zeng" />
-        <meta name="keywords" content="Wenhuang Zeng, Brown University, Software Developer"></meta>
+        <meta name="keywords" content="Wenhuang Zeng, Brown University, Software Developer" />
     </Helmet>
     <Grid stackable verticalAlign={"middle"} centered columns={9} className={styles.HomeContainer}>
       <Grid.Column stretched width={4} className={styles.Cover}>
