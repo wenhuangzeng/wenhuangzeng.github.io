@@ -10,7 +10,7 @@ import 'semantic-ui-css/semantic.min.css'
 const IndexPage = () => (
   <React.Fragment>
     <Helmet>
-        <title>W|Z</title>
+        <title>W | Z</title>
         <meta name="description" content="Hi there!" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Wenhuang Zeng" />
