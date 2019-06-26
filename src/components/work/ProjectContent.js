@@ -1,10 +1,10 @@
 export default [
 
     {
-        "name": "whzeng.me",
+        "name": "GenFit",
         "image" : require('../../images/steve.jpg'),
-        "tools" : ['Gatsby.js', 'React.js', 'SCSS'],
-        "description" : "My personal website built with Gatsby.js which provides a framework for React.",
+        "tools" : ['Java', 'HTML', 'CSS', 'jQuery', 'SQLite'],
+        "description" : "An web app to visualize your wardrobe and provide you with outfit suggestions",
         "details" : ["Utilized OOP to categorize components of Pacman using Java and JavaFX", "Implemented breadth-first search to control Ghosts’ movement"],
         "links" : [
             
@@ -12,9 +12,9 @@ export default [
     },
 
     {
-        "name": "GenFit",
+        "name": "Clinical Intent of Biomedical Search Engine",
         "image" : require('../../images/steve.jpg'),
-        "tools" : ['Java', 'HTML', 'CSS', 'jQuery', 'SQLite'],
+        "tools" : ['Python'],
         "description" : "An web app to visualize your wardrobe and provide you with outfit suggestions",
         "details" : ["Utilized OOP to categorize components of Pacman using Java and JavaFX", "Implemented breadth-first search to control Ghosts’ movement"],
         "links" : [

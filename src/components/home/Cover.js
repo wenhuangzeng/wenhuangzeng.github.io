@@ -13,31 +13,31 @@ import TileNine from '../../images/9.jpg'
 const Cover = () => (
     <div className={styles.PortraitBoard}>
         <div className={styles.PortraitTile}>
-            <img src={TileOne} alt="Tile One of Cover Image" />
+            <img src={TileOne} alt="Tile One of Cover" />
         </div>
         <div className={styles.PortraitTile}>
-            <img src={TileTwo} alt="Tile Two of Cover Image" />
+            <img src={TileTwo} alt="Tile Two of Cover" />
         </div>
         <div className={styles.PortraitTile}>
-            <img src={TileThree} alt="Tile Three of Cover Image" />
+            <img src={TileThree} alt="Tile Three of Cover" />
         </div>
         <div className={styles.PortraitTile}>
-            <img src={TileFour} alt="Tile Four of Cover Image" />
+            <img src={TileFour} alt="Tile Four of Cover" />
         </div>
         <div className={styles.PortraitTile}>
-            <img src={TileFive} alt="Tile Five of Cover Image" />
+            <img src={TileFive} alt="Tile Five of Cover" />
         </div>
         <div className={styles.PortraitTile}>
-            <img src={TileSix} alt="Tile Six of Cover Image" />
+            <img src={TileSix} alt="Tile Six of Cover" />
         </div>
         <div className={styles.PortraitTile}>
-            <img src={TileSeven} alt="Tile Seven of Cover Image" />
+            <img src={TileSeven} alt="Tile Seven of Cover" />
         </div>
         <div className={styles.PortraitTile}>
-            <img src={TileEight} alt="Tile Eight of Cover Image" />
+            <img src={TileEight} alt="Tile Eight of Cover" />
         </div>
         <div className={styles.PortraitTile}>
-            <img src={TileNine} alt="Tile Nine of Cover Image" />
+            <img src={TileNine} alt="Tile Nine of Cover" />
         </div>
     </div>
 )

@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
   const project = props.project;
   return (
     <div className={styles.Card}>
-      <img src={project.image} className={styles.CardImage} />
+      <img src={project.image} alt={project.name} className={styles.CardImage} />
       <div className={styles.Overlay}>
         <ProjectModal project={project} />    
       </div>

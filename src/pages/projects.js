@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from "react-helmet"
 import ProjectCard from '../components/work/ProjectCard';
-import { Grid, GridRow, GridColumn, Container } from 'semantic-ui-react';
+import { Grid, Container } from 'semantic-ui-react';
 import styles from './projects.module.scss';
 import projects from '../components/work/ProjectContent';
 
@@ -20,7 +20,7 @@ const ProjectsPage = () => (
         </Container>
 
         <Grid stackable>
-            <Grid.Row columns={5}>
+            <Grid.Row columns={4}>
 
                 {projects.map( (project) => {
                     return (
