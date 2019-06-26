@@ -35,12 +35,12 @@ const AboutMe = () => (
 
         <Grid.Row columns={2} className={styles.BottomRow}>
             <Grid.Column columns={"equal"}>
-            {/* <Link to="/projects"> */}
+            <Link to="/projects">
             <Button fluid inverted color='purple'>
               <Icon name='file code' /> 
               PROJECTS
             </Button>
-            {/* </Link> */}
+            </Link>
             </Grid.Column>
             <Grid.Column columns={"equal"}>
             <Button fluid inverted color='teal'>

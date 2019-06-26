@@ -11,6 +11,7 @@
     }
     
     .Overlay {
+        padding: 5%;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -18,37 +19,18 @@
         right: 0;
         opacity: 0;
         transition: .5s ease;
-        background-color: #000;
+        // background-color: #25C7BA;
     }
 }
 
 
 .Card:hover {
 
-    .Overlay {
-        opacity: 0.5;
+    img {
+        opacity: 0.25;
     }
-}
 
-.Brief {
-    min-width: 90%;
-    min-height: 90%;
-    max-width: 90%;
-    max-height: 90%;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.ModalImage {
-    text-align: center;
-}
-
-.Content {
-    color: #000;
+    .Overlay {
+        opacity: 1;
+    }
 }

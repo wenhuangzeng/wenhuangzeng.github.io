@@ -8,7 +8,7 @@ import projects from '../components/work/ProjectContent';
 const ProjectsPage = () => (
     <div className={styles.ProjectsContainer}>
         <Helmet>
-            <title>W | Z | Projects</title>
+            <title>W / Z / Projects</title>
             <meta name="description" content="Hi there!" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta name="author" content="Wenhuang Zeng" />
@@ -16,7 +16,7 @@ const ProjectsPage = () => (
         </Helmet>
 
         <Container fluid className={styles.Heading}>
-        <h1><mark>___________</mark></h1>
+        <h1><mark>My Projects</mark></h1>
         </Container>
 
         <Grid stackable>
