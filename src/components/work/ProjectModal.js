@@ -9,7 +9,7 @@ const ProjectModal = (props) => {
         
         <Button fluid basic color='black' className={styles.BriefButton}>
             <h2>{project.name}</h2>
-            <a href="#">{project.tools.join(', ')}</a>
+            <a>{project.tools.join(', ')}</a>
         </Button>}>
         <Modal.Content image>
           <Image wrapped size='medium' verticalAlign='middle' src={project.image} className={styles.ModalImage} />

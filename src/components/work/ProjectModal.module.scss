@@ -1,18 +1,19 @@
 .BriefButton {
-    min-width: 80%;
-    min-height: 80%;
-    max-width: 80%;
-    max-height: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    // min-width: 80%;
+    // min-height: 80%;
+    // max-width: 80%;
+    // max-height: 80%;
+    // position: absolute;
+    // top: 50%;
+    // // left: 50%;
+    // -webkit-transform: translate(-50%, -50%);
+    // -ms-transform: translate(-50%, -50%);
+    // transform: translate(-50%, -50%);
     text-align: center;
 
     h2 {
         color: white;
+        padding: 0 10% 0 10%;
     }
 }
 
@@ -33,6 +34,7 @@
     color: #000;
     font-weight: 500;
     mark {
+        font-size: 2rem;
         background-color: #25C7BA;
         font-weight: 400;
         display: inline-block;

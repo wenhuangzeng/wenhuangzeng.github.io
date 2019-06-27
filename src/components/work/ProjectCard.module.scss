@@ -1,6 +1,7 @@
 .Card {
-    height: 20rem;
-    margin-top: 10%;
+    height: 18rem;
+    margin-top: 15%;
+    padding: 0% 5% 0 5%;
 
     .CardImage {
         min-width: 100%;
@@ -10,16 +11,15 @@
         display: block;
     }
     
-    .Overlay {
-        padding: 5%;
+    button {
         position: absolute;
-        top: 0;
+        // padding: 20% !important;
+        top: 16%;
         bottom: 0;
         left: 0;
         right: 0;
         opacity: 0;
         transition: .5s ease;
-        // background-color: #25C7BA;
     }
 }
 
@@ -30,7 +30,7 @@
         opacity: 0.25;
     }
 
-    .Overlay {
+    button {
         opacity: 1;
     }
 }

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Helmet } from "react-helmet"
 import ProjectCard from '../components/work/ProjectCard';
-import { Grid, Container } from 'semantic-ui-react';
+import {Grid, Container, Icon } from 'semantic-ui-react';
+import { Link } from "gatsby"
 import styles from './projects.module.scss';
 import projects from '../components/work/ProjectContent';
 
@@ -16,12 +17,11 @@ const ProjectsPage = () => (
         </Helmet>
 
         <Container fluid className={styles.Heading}>
-        <h1><mark>My Projects</mark></h1>
+        <h1><Link to="/"><Icon name="arrow left" link size="small" /></Link><mark>My Projects</mark></h1>
         </Container>
 
         <Grid stackable>
-            <Grid.Row columns={4}>
-
+            <Grid.Row columns={3}>
                 {projects.map( (project) => {
                     return (
                         <Grid.Column>
@@ -30,62 +30,6 @@ const ProjectsPage = () => (
                     )
 
                 })}
-
-                {/* <Grid.Column>
-                    <ProjectCard 
-                        name={"whatt"}
-                        description={"description123"} 
-                        image={require('../images/1.jpg')}
-                        tools={['tool1', 'tool2']}
-                    />
-                </Grid.Column>
-
-
-                <GridColumn>
-                    <ProjectCard 
-                        name={"whatt"}
-                        description={"description123"} 
-                        image={require('../images/2.jpg')}
-                        tools={['tool1', 'tool2']}
-                    />
-                </GridColumn>
-
-                <Grid.Column>
-                    <ProjectCard 
-                        name={"whatt"}
-                        description={"description123"} 
-                        image={require('../images/3.jpg')}
-                        tools={['tool1', 'tool2']}
-                    />
-                </Grid.Column>
-
-
-                <Grid.Column>
-                    <ProjectCard 
-                        name={"whatt"}
-                        description={"description123"} 
-                        image={require('../images/4.jpg')}
-                        tools={['tool1', 'tool2']}
-                    />
-                </Grid.Column>
-
-                <Grid.Column>
-                    <ProjectCard 
-                        name={"whatt"}
-                        description={"description123"} 
-                        image={require('../images/4.jpg')}
-                        tools={['tool1', 'tool2']}
-                    />
-                </Grid.Column>
-
-                <Grid.Column>
-                    <ProjectCard 
-                        name={"whatt"}
-                        description={"description123"} 
-                        image={require('../images/4.jpg')}
-                        tools={['tool1', 'tool2']}
-                    />
-                </Grid.Column> */}
 
             </Grid.Row>
 

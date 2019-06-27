@@ -1,5 +1,4 @@
 export default [
-
     {
         "name": "GenFit",
         "image" : require('../../images/steve.jpg'),

@@ -6,10 +6,10 @@ const ProjectCard = (props) => {
   const project = props.project;
   return (
     <div className={styles.Card}>
+
       <img src={project.image} alt={project.name} className={styles.CardImage} />
-      <div className={styles.Overlay}>
-        <ProjectModal project={project} />    
-      </div>
+      <ProjectModal project={project} />
+
     </div>
   )
 }
