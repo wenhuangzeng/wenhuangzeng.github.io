@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from "react-helmet"
 import { Grid } from 'semantic-ui-react'
+import Navigation from '../components/navigation/Navigation';
 import AboutMe from '../components/home/AboutMe';
 import Cover from '../components/home/Cover';
 import styles from './index.module.scss';
@@ -16,6 +17,7 @@ const IndexPage = () => (
         <meta name="author" content="Wenhuang Zeng" />
         <meta name="keywords" content="Wenhuang Zeng, Brown University, Software Developer" />
     </Helmet>
+    <Navigation />
     <Grid stackable verticalAlign={"middle"} centered columns={9} className={styles.HomeContainer}>
       <Grid.Column stretched width={4} className={styles.Cover}>
         <Cover />

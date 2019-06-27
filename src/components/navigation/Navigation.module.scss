@@ -1,0 +1,33 @@
+nav {
+    // overflow: hidden;
+    position: fixed;
+}
+
+
+ul {
+    list-style-type: none;
+    text-align: center;
+
+    li {
+        transform: translateX(20px);
+    }
+
+    li:hover {
+        li::before {
+            color: #fff !important;
+            content:"[ ";
+            
+        }
+        li::after {
+            color: #fff;
+            content:" ]";
+        }
+
+    }
+}
+
+@media (max-width: 1050px) {
+    ul li{
+        display: inline;
+    }
+}
