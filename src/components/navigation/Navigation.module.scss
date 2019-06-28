@@ -1,5 +1,6 @@
 nav {
     // overflow: hidden;
+    top: 5rem;
     position: fixed;
 }
 
@@ -9,25 +10,48 @@ ul {
     text-align: center;
 
     li {
+        width: 8rem;
+    }
+    
+    a {
         transform: translateX(20px);
+        color: #fff;
+    }
+
+    mark {
+        background-color: #000;
+        color: #fff;
+        font-weight: 400;
+        display: inline-block;
+        line-height: 0.1em;
+        padding-bottom: 0.5em;
+        transition: 0.5s ease-out;
+        -webkit-transition: 0.5s ease-out;
     }
 
     li:hover {
-        li::before {
-            color: #fff !important;
-            content:"[ ";
-            
-        }
-        li::after {
+        a {
             color: #fff;
-            content:" ]";
+        }
+
+        mark {
+            background-color: #25C7BA;
         }
 
     }
 }
 
 @media (max-width: 1050px) {
-    ul li{
-        display: inline;
+    nav {
+        margin-top: 15%;
+        position: inherit;
+    }
+    ul {
+        margin-left: 0;
+        li{
+            display: inline;
+            padding-right: 3%;
+            padding-left: 3%;
+        }
     }
 }

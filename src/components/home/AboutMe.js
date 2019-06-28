@@ -37,7 +37,7 @@ const AboutMe = () => (
             </Container>
         </Grid.Row>
 
-        <Grid.Row columns={2} className={styles.BottomRow}>
+        {/* <Grid.Row columns={2} className={styles.BottomRow}>
             <Grid.Column columns={"equal"}>
             <Link to="/projects">
             <Button fluid inverted color='purple'>
@@ -52,7 +52,7 @@ const AboutMe = () => (
                 RESUME
             </Button>
             </Grid.Column>
-        </Grid.Row>
+        </Grid.Row> */}
     </Grid>
 )
 
