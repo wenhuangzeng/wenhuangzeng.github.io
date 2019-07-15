@@ -5,5 +5,5 @@ This is my first personal website built from scratch using [Gatsby.js](https://w
 # Run & Build
 ```bash
 npm install
-gatsbyd develop
+gatsby develop
 ```
