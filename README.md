@@ -1,5 +1,5 @@
 ---
-permalink: /src/pages/index.js
+permalink: ./src/pages/index.js
 ---
 
 # whzeng.me
