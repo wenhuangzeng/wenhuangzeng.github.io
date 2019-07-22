@@ -29,9 +29,9 @@ const AboutMe = () => (
             </p>
             <p>
                 Things I like to do in my free time include cooking, working out, skateboarding, and drinking tea. I would always <span>like to talk</span> -- reach out to me at &nbsp;
-                <a href="mailto: wenhuang_zeng@brown.edu" target="_top"><Icon name='mail' size="small" /></a>
-                <a href="https://www.linkedin.com/in/whzeng/" target="_blank"><Icon name='linkedin' size="small" /></a>
-                <a href="https://www.instagram.com/wh_zeng/" target="_blank"><Icon name='instagram' size="small" /></a>.
+                <a href="mailto: wenhuang_zeng@brown.edu" target="_top" aria-label="Send email"><Icon name='mail' size="large" /></a>
+                <a href="https://www.linkedin.com/in/whzeng/" target="_blank" rel="noopener" aria-label="LinkedIn Link"><Icon name='linkedin' size="large" /></a>
+                <a href="https://www.instagram.com/wh_zeng/" target="_blank" rel="noopener" aria-label="Instagram Link"><Icon name='instagram' size="large" /></a>.
                 
             </p>
             </Container>

@@ -11,10 +11,10 @@ const ProjectsPage = () => (
     <React.Fragment>
         <Helmet>
             <title>W / Z / Projects</title>
-            <meta name="description" content="Hi there!" />
+            <meta name="description" content="Wenhuang Zeng | Computer Science&Applied Math @ Brown University" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta name="author" content="Wenhuang Zeng" />
-            <meta name="keywords" content="Wenhuang Zeng, Brown University, Software Developer, Projects" />
+            <meta name="keywords" content="Wenhuang Zeng, Brown University, Software Developer, Data Scientist, Brown Computer Science, Brown Applied Math" />
         </Helmet>
         <Navigation />
         <div className={styles.ProjectsContainer}>

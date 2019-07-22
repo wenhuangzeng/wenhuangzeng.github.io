@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from './Cover.module.scss'
-import TileOne from '../../images/1.jpg'
-import TileTwo from '../../images/2.jpg'
-import TileThree from '../../images/3.jpg'
-import TileFour from '../../images/4.jpg'
-import TileFive from '../../images/5.jpg'
-import TileSix from '../../images/6.jpg'
-import TileSeven from '../../images/7.jpg'
-import TileEight from '../../images/8.jpg'
-import TileNine from '../../images/9.jpg'
+import TileOne from '../../images/portrait/1.jpg'
+import TileTwo from '../../images/portrait/2.jpg'
+import TileThree from '../../images/portrait/3.jpg'
+import TileFour from '../../images/portrait/4.jpg'
+import TileFive from '../../images/portrait/5.jpg'
+import TileSix from '../../images/portrait/6.jpg'
+import TileSeven from '../../images/portrait/7.jpg'
+import TileEight from '../../images/portrait/8.jpg'
+import TileNine from '../../images/portrait/9.jpg'
 
 const Cover = () => (
     <div className={styles.PortraitBoard}>

@@ -1,5 +1,27 @@
 export default [
     {
+        "name": "Chinese Idiom Chengyu",
+        "image" : require('../../images/steve.jpg'),
+        "tools" : ['Node.js'],
+        "description" : "A npm package that contains utilities for Chinese idioms or chengyu.",
+        "details" : ["Utilized OOP to categorize components of Pacman using Java and JavaFX", "Implemented breadth-first search to control Ghosts’ movement"],
+        "links" : [
+            { "name" : "Github", "url" : "https://github.com/wenhuangzeng/chinese-idiom-chengyu" }
+        ]
+    },
+
+    {
+        "name": "whzeng.me",
+        "image" : require('../../images/steve.jpg'),
+        "tools" : ['Gatsby.js', 'React.js', 'SASS'],
+        "description" : "A npm package that contains utilities for Chinese idioms or chengyu.",
+        "details" : ["Utilized OOP to categorize components of Pacman using Java and JavaFX", "Implemented breadth-first search to control Ghosts’ movement"],
+        "links" : [
+            { "name" : "Github", "url" : "https://github.com/wenhuangzeng/chinese-idiom-chengyu" }
+        ]
+    },
+
+    {
         "name": "GenFit",
         "image" : require('../../images/steve.jpg'),
         "tools" : ['Java', 'HTML', 'CSS', 'jQuery', 'SQLite'],
@@ -61,8 +83,8 @@ export default [
         "description" : "An implementation of iconic game Pacman",
         "details" : ["Utilized OOP to categorize components of Pacman using Java and JavaFX", "Implemented breadth-first search to control Ghosts’ movement"],
         "links" : [
-            { "name" : "Github", "url" : "https://github.com" },
-            { "name" : "Demo", "url" : "https://google.com" }
+            // { "name" : "Github", "url" : "https://github.com" },
+            // { "name" : "Demo", "url" : "https://google.com" }
         ]
     }
 ]
