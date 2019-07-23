@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{537:function(e,a,n){"use strict";n.r(a);var t=n(0),r=n.n(t),o=n(531),i=n.n(o);n(166);a.default=function(){var e=Object(t.useRef)();new i.a(e.current,{loop:!0,autoStart:!0});return r.a.createElement("div",null,r.a.createElement(i.a,{options:{strings:["<mark>Wenhuang Zeng</mark>","<mark>WEN-hwahng ZENG</mark>","<mark>曾文煌</mark>"],autoStart:!0,loop:!0}}),r.a.createElement("div",{id:"typewritercontainer",ref:e}))}}}]);
+//# sourceMappingURL=7-69b7e9621d63ec12f20a.js.map
