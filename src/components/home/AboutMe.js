@@ -1,5 +1,5 @@
 import React from "react"
-import Typewriter from "typewriter-effect"
+// import Typewriter from "typewriter-effect"
 import { Container, Button, Icon, Grid } from "semantic-ui-react"
 import { Link } from "gatsby"
 import styles from "./AboutMe.module.scss"
@@ -9,7 +9,7 @@ const AboutMe = () => (
     <Grid.Row className={styles.TopRow}>
       <Container fluid className={styles.Typewriter}>
         <h1>Hi, I'm</h1>
-        <Typewriter
+        {/* <Typewriter
           options={{
             strings: [
               "<mark>Wenhuang Zeng</mark>",
@@ -19,7 +19,7 @@ const AboutMe = () => (
             autoStart: true,
             loop: true,
           }}
-        />
+        /> */}
       </Container>
     </Grid.Row>
 
