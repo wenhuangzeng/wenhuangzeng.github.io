@@ -13,15 +13,13 @@
     margin-right: 3%;
 }
 
-// @media (max-width: 1050px) {
-@media(max-width: 768px) {
-
+@media (max-width: 1050px) {
     .AboutMe {
         // padding-top: 10%;
         height: 100%;
     }
     .Cover {
-        height: 70%;
+        height: 500px;
         margin-right: 0%;
         width: 90%;
     }
