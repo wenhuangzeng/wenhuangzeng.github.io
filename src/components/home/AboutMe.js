@@ -4,11 +4,19 @@ import { Container, Button, Icon, Grid } from "semantic-ui-react"
 import { Link } from "gatsby"
 import styles from "./AboutMe.module.scss"
 
+import Loadable from 'react-loadable'
+const loader=()=>(<div>Loading...</div>)
+const LoadableComponent = Loadable({
+  loader: () => import('./Typewriter'),
+  loading: loader,
+});
+
 const AboutMe = () => (
   <Grid>
     <Grid.Row className={styles.TopRow}>
       <Container fluid className={styles.Typewriter}>
         <h1>Hi, I'm</h1>
+        <LoadableComponent/>
         {/* <Typewriter
           options={{
             strings: [
