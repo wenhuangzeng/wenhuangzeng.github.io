@@ -12,8 +12,7 @@ const Navigation = () => (
         </a>
       </li>
       <li>
-        {/* <Link to="/projects"> */}
-        <Link to="#">
+        <Link to="/projects">
           <mark>PROJECT</mark>
         </Link>
       </li>

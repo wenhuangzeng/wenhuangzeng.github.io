@@ -23,7 +23,15 @@ const ProjectsPage = () => (
       />
     </Helmet>
     <Navigation />
+
     <div className={styles.ProjectsContainer}>
+      <Container fluid className={styles.Heading}>
+        <h1>Under development...</h1>
+      </Container>
+    </div>
+
+
+    {/* <div className={styles.ProjectsContainer}>
       <Container fluid className={styles.Heading}>
         <h1>
           <Link to="/"></Link>
@@ -42,7 +50,9 @@ const ProjectsPage = () => (
           })}
         </Grid.Row>
       </Grid>
-    </div>
+    </div> */}
+
+
   </React.Fragment>
 )
 
