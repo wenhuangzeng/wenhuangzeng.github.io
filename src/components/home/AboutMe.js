@@ -1,33 +1,21 @@
 import React from "react"
-// import Typewriter from "typewriter-effect"
 import { Container, Button, Icon, Grid } from "semantic-ui-react"
 import { Link } from "gatsby"
 import styles from "./AboutMe.module.scss"
 
-import Loadable from 'react-loadable'
-const loader=()=>(<div>Loading...</div>)
+import Loadable from "react-loadable"
+const loader = () => <div>Loading...</div>
 const LoadableComponent = Loadable({
-  loader: () => import('./Typewriter'),
+  loader: () => import("./Typewriter"),
   loading: loader,
-});
+})
 
 const AboutMe = () => (
   <Grid>
     <Grid.Row className={styles.TopRow}>
       <Container fluid className={styles.Typewriter}>
         <h1>Hi, I'm</h1>
-        <LoadableComponent/>
-        {/* <Typewriter
-          options={{
-            strings: [
-              "<mark>Wenhuang Zeng</mark>",
-              "<mark>WEN-hwahng ZENG</mark>",
-              "<mark>曾文煌</mark>",
-            ],
-            autoStart: true,
-            loop: true,
-          }}
-        /> */}
+        <LoadableComponent />
       </Container>
     </Grid.Row>
 
@@ -49,7 +37,7 @@ const AboutMe = () => (
         <p>
           Things I like to do in my free time include cooking, working out,
           skateboarding, and drinking tea. I would always{" "}
-          <span>like to talk</span> -- reach out to me at &nbsp;
+          <span>like to talk</span> -- you can reach me at &nbsp;
           <a
             href="mailto: wenhuang_zeng@brown.edu"
             target="_top"
@@ -77,23 +65,6 @@ const AboutMe = () => (
         </p>
       </Container>
     </Grid.Row>
-
-    {/* <Grid.Row columns={2} className={styles.BottomRow}>
-            <Grid.Column columns={"equal"}>
-            <Link to="/projects">
-            <Button fluid inverted color='purple'>
-              <Icon name='file code' /> 
-              PROJECTS
-            </Button>
-            </Link>
-            </Grid.Column>
-            <Grid.Column columns={"equal"}>
-            <Button fluid inverted color='teal'>
-              <Icon name='file pdf' /> 
-                RESUME
-            </Button>
-            </Grid.Column>
-        </Grid.Row> */}
   </Grid>
 )
 

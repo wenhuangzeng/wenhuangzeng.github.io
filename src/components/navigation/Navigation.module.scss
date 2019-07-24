@@ -1,5 +1,4 @@
 nav {
-    // overflow: hidden;
     top: 5rem;
     position: fixed;
 }
@@ -43,9 +42,9 @@ ul {
     }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1024px) {
     nav {
-        margin-top: 15%;
+        margin-top: 8%;
         position: inherit;
     }
     ul {

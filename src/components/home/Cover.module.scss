@@ -32,15 +32,16 @@
     }
 
     img:hover {
-        // transform: rotateY(360deg);
-        // transform: scale(1.05);
         opacity: 1;
     }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1024px) {
 
     .PortraitBoard {
-        margin-top: 10%;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
     }
 }
