@@ -29,7 +29,7 @@ const ProjectModal = props => {
           className={styles.ModalImage}
         />
         <Modal.Description className={styles.Description}>
-          <Header as="h1">
+          <Header as="h2">
             <mark>{project.name}</mark>
           </Header>
           <Container fluid>
@@ -48,7 +48,14 @@ const ProjectModal = props => {
               {project.links.map(link => {
                 return (
                   <List.Item>
-                    <a href={link.url}>{link.name}</a>
+                    <a
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Project Link"
+                    >
+                      {link.name}
+                    </a>
                   </List.Item>
                 )
               })}

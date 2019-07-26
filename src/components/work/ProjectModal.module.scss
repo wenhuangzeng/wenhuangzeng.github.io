@@ -12,12 +12,14 @@
 
 .ModalImage {
     text-align: center;
+    width: 40% !important;
     img {
         margin: 0;
     }
 }
 
 .Description {
+    width: 60% !important;
     color: #000;
     font-weight: 500;
     mark {
@@ -43,4 +45,12 @@
 
 .Links a {
     color: #25C7BA !important;
+}
+
+
+@media (max-width: 1024px) {
+    .ModalImage {
+        width: 100% !important;
+        height: 50%;
+    }
 }

@@ -1,11 +1,12 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import ProjectCard from "../components/work/ProjectCard"
+// import ProjectCard from "../components/work/ProjectCard"
 import Navigation from "../components/navigation/Navigation"
-import { Grid, Container, Icon } from "semantic-ui-react"
+import { Grid, Container } from "semantic-ui-react"
 import { Link } from "gatsby"
 import styles from "./projects.module.scss"
 import projects from "../components/work/ProjectContent"
+import ProjectRow from "../components/work/ProjectRow"
 
 const ProjectsPage = () => (
   <React.Fragment>
@@ -24,35 +25,37 @@ const ProjectsPage = () => (
     </Helmet>
     <Navigation />
 
-    <div className={styles.ProjectsContainer}>
+    {/* <div className={styles.ProjectsContainer}>
       <Container fluid className={styles.Heading}>
         <h1>Under development...</h1>
       </Container>
-    </div>
+    </div> */}
 
-
-    {/* <div className={styles.ProjectsContainer}>
-      <Container fluid className={styles.Heading}>
+    <div className={styles.ProjectsContainer}>
+      <Container className={styles.Heading}>
         <h1>
-          <Link to="/"></Link>
           <mark>My Projects</mark>
         </h1>
       </Container>
 
       <Grid stackable>
-        <Grid.Row columns={3}>
+        <Grid.Row columns={1}>
           {projects.map(project => {
             return (
               <Grid.Column>
-                <ProjectCard project={project} />
+
+                <br />
+                <br />
+                <ProjectRow project={project} />
+                <br />
+                <br />
+
               </Grid.Column>
             )
           })}
         </Grid.Row>
       </Grid>
-    </div> */}
-
-
+    </div>
   </React.Fragment>
 )
 
