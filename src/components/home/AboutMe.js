@@ -35,8 +35,8 @@ const AboutMe = () => (
         </p>
         <p>
           Things I like to do in my free time include cooking, working out,
-          skateboarding, and drinking tea. I would always{" "}
-          like to talk -- you can reach me at &nbsp;
+          skateboarding, and drinking tea. I would always like to talk -- you
+          can reach me at &nbsp;
           <a
             href="mailto: wenhuang_zeng@brown.edu"
             target="_top"

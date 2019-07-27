@@ -1,7 +1,7 @@
 export default [
   {
     name: "Chinese Idiom Chengyu",
-    image: require("../../images/steve.jpg"),
+    image: require("../../images/projects/chinese-idiom-chengyu.jpg"),
     tools: ["Node.js"],
     description:
       "A npm package that contains helper functions for Chinese idioms or chengyu.",
@@ -19,7 +19,7 @@ export default [
 
   {
     name: "whzeng.com",
-    image: require("../../images/steve.jpg"),
+    image: require("../../images/projects/whzeng.jpg"),
     tools: ["Gatsby.js", "React.js", "SASS"],
     description: "My first personal website.",
     details: [
@@ -40,7 +40,7 @@ export default [
 
   {
     name: "GenFit",
-    image: require("../../images/steve.jpg"),
+    image: require("../../images/projects/genfit.jpg"),
     tools: ["Java", "HTML", "CSS", "jQuery", "SQLite", "AWS"],
     description:
       "Group project to build a web-based application where users can compile a virtual inventory of their closet, easily create outfits, and receive outfit suggestions.",
@@ -55,7 +55,7 @@ export default [
 
   {
     name: "Clinical Intents Research",
-    image: require("../../images/steve.jpg"),
+    image: require("../../images/projects/clinical-intents-research.jpg"),
     tools: ["Python"],
     description:
       "A research project to examine the log files of a biomedical expert search engine in order to perform personalization and re-ranking of the search results.",
@@ -70,7 +70,7 @@ export default [
 
   {
     name: "Map",
-    image: require("../../images/steve.jpg"),
+    image: require("../../images/projects/maps.jpg"),
     tools: ["Java", "HTML", "CSS", "jQuery", "SQLite"],
     description:
       "Paired project to build a map engine, similar to Google Maps.",
@@ -85,7 +85,7 @@ export default [
 
   {
     name: "Autocorrect",
-    image: require("../../images/steve.jpg"),
+    image: require("../../images/projects/autocorrect.jpg"),
     tools: ["Java", "HTML", "CSS", "jQuery"],
     description: "A single-paged web app that implements autocorrect.",
     details: [
@@ -98,7 +98,7 @@ export default [
 
   {
     name: "TRON",
-    image: require("../../images/steve.jpg"),
+    image: require("../../images/projects/tron.jpg"),
     tools: ["Python"],
     description:
       "Paired project to build a computational decision model for AI to win the game of TRON.",
@@ -111,7 +111,7 @@ export default [
 
   {
     name: "Pacman",
-    image: require("../../images/steve.jpg"),
+    image: require("../../images/projects/pacman.jpg"),
     tools: ["Java", "JavaFX"],
     description: "An desktop application of the iconic game Pacman.",
     details: [

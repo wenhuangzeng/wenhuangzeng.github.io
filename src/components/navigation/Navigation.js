@@ -12,14 +12,11 @@ const Navigation = props => {
   } else if (activeTab === "projects") {
     projectTab = <mark className={styles.ActiveTab}>PROJECT</mark>
   }
-  console.log(activeTab)
   return (
     <nav>
       <ul>
         <li>
-          <a href="/" aria-label="Home">
-            {homeTab}
-          </a>
+          <Link to="/">{homeTab}</Link>
         </li>
         <li>
           <Link to="/projects">{projectTab}</Link>

@@ -1,9 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-// import ProjectCard from "../components/work/ProjectCard"
 import Navigation from "../components/navigation/Navigation"
-import { Grid, Container } from "semantic-ui-react"
-import { Link } from "gatsby"
+import { Grid } from "semantic-ui-react"
 import styles from "./projects.module.scss"
 import projects from "../components/work/ProjectContent"
 import ProjectRow from "../components/work/ProjectRow"
@@ -27,15 +25,14 @@ const ProjectsPage = () => (
     <Navigation activeTab={"projects"} />
 
     <div className={styles.ProjectsContainer}>
-
       <Grid stackable>
         <Grid.Row columns={1}>
           {projects.map(project => {
             return (
               <Grid.Column>
                 <br />
-                <br />  
                 <ProjectRow project={project} />
+                <br />
                 <br />
               </Grid.Column>
             )
