@@ -12,6 +12,7 @@ const ProjectsPage = () => (
   <React.Fragment>
     <Helmet>
       <title>W / Z / Projects</title>
+      <html lang="en" />
       <meta
         name="description"
         content="Wenhuang Zeng | Computer Science&Applied Math @ Brown University"
@@ -23,33 +24,19 @@ const ProjectsPage = () => (
         content="Wenhuang Zeng, Brown University, Software Developer, Data Scientist, Brown Computer Science, Brown Applied Math"
       />
     </Helmet>
-    <Navigation />
-
-    {/* <div className={styles.ProjectsContainer}>
-      <Container fluid className={styles.Heading}>
-        <h1>Under development...</h1>
-      </Container>
-    </div> */}
+    <Navigation activeTab={"projects"} />
 
     <div className={styles.ProjectsContainer}>
-      <Container className={styles.Heading}>
-        <h1>
-          <mark>My Projects</mark>
-        </h1>
-      </Container>
 
       <Grid stackable>
         <Grid.Row columns={1}>
           {projects.map(project => {
             return (
               <Grid.Column>
-
                 <br />
-                <br />
+                <br />  
                 <ProjectRow project={project} />
                 <br />
-                <br />
-
               </Grid.Column>
             )
           })}

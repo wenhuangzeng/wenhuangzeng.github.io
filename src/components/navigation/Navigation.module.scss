@@ -3,6 +3,9 @@ nav {
     position: fixed;
 }
 
+.ActiveTab {
+    background-color: #25C7BA;
+}
 
 ul {
     list-style-type: none;
@@ -26,8 +29,8 @@ ul {
         display: inline-block;
         line-height: 0.1em;
         padding-bottom: 0.5em;
-        transition: 0.5s ease-out;
-        -webkit-transition: 0.5s ease-out;
+        transition: 0.3s ease-out;
+        -webkit-transition: 0.3s ease-out;
     }
 
     li:hover {
@@ -36,18 +39,22 @@ ul {
         }
 
         mark {
-            background-color: #25C7BA;
+            background-color: #E04EFD;
+            padding-top: 0.5em;
+            padding-bottom: 0em;
         }
 
     }
 }
 
 @media (max-width: 1024px) {
+    
     nav {
-        margin-top: 8%;
+        margin-top: 10%;
         position: inherit;
     }
     ul {
+        font-size: 1.25rem;
         margin-left: 0;
         padding-left: 0;
         text-align: center;

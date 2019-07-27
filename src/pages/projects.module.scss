@@ -2,39 +2,9 @@
     margin: 2% 20% 2% 20%;
 }
 
-.Heading {
-    width: 100%;
-
-    h1 {
-    line-height: 2em;
-    }
-
-    mark {
-        font-size: 2rem;
-        background-color: #25C7BA;
-        color: #fff;
-        font-weight: 400;
-        display: inline-block;
-        line-height: 0.1em;
-        padding-bottom: 0.7em;
-        transition: 0.5s ease-out;
-        -webkit-transition: 0.5s ease-out;
-    }
-}
-
-
-.Heading:hover {
-    mark {
-        background-color: #E04EFD;
-        line-height: 0.1em;
-        padding-bottom: 0em;
-        padding-top: 0.7em;
-    }
-}
-
 @media (max-width: 1024px) {
     .ProjectsContainer {
-        margin: 15% 5% 2% 5%;
+        margin: 0%;
         h1 {
             text-align: center;
         }

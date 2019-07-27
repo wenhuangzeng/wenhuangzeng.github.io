@@ -1,6 +1,5 @@
 import React from "react"
 import { Container, Button, Icon, Grid } from "semantic-ui-react"
-import { Link } from "gatsby"
 import styles from "./AboutMe.module.scss"
 
 import Loadable from "react-loadable"
@@ -37,7 +36,7 @@ const AboutMe = () => (
         <p>
           Things I like to do in my free time include cooking, working out,
           skateboarding, and drinking tea. I would always{" "}
-          <span>like to talk</span> -- you can reach me at &nbsp;
+          like to talk -- you can reach me at &nbsp;
           <a
             href="mailto: wenhuang_zeng@brown.edu"
             target="_top"

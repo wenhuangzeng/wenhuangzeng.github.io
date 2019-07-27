@@ -21,8 +21,7 @@ export default [
     name: "whzeng.com",
     image: require("../../images/steve.jpg"),
     tools: ["Gatsby.js", "React.js", "SASS"],
-    description:
-      "My first personal website.",
+    description: "My first personal website.",
     details: [
       "Built my first personal website with Gastby.js, a modern site generator for React.",
       "Practiced single responsibility of React components and divided website styling through SASS modules.",
@@ -88,8 +87,7 @@ export default [
     name: "Autocorrect",
     image: require("../../images/steve.jpg"),
     tools: ["Java", "HTML", "CSS", "jQuery"],
-    description:
-      "A single-paged web app that implements autocorrect.",
+    description: "A single-paged web app that implements autocorrect.",
     details: [
       "Implemented a generic Trie data structure from scratch for efficient prefix lookup.",
       "Built a single-paged web app with RESTful service to get autocorrect suggestions through AJAX calls.",
@@ -115,8 +113,7 @@ export default [
     name: "Pacman",
     image: require("../../images/steve.jpg"),
     tools: ["Java", "JavaFX"],
-    description:
-      "An desktop application of the iconic game Pacman.",
+    description: "An desktop application of the iconic game Pacman.",
     details: [
       "Utilized OOP to categorize and encapsulate components of Pacman.",
       "Implemented breadth-first search to control Ghosts’ movement;. Created the game GUI through JavaFX.",

@@ -23,7 +23,7 @@ const IndexPage = () => (
         content="Wenhuang Zeng, Brown University, Software Developer, Data Scientist, Brown Computer Science, Brown Applied Math"
       />
     </Helmet>
-    <Navigation />
+    <Navigation activeTab={"index"} />
     <Grid
       stackable
       verticalAlign={"middle"}
