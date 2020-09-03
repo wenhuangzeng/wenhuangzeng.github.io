@@ -21,17 +21,15 @@ const AboutMe = () => (
     <Grid.Row className={styles.CenterRow}>
       <Container fluid className={styles.Paragraphs}>
         <p>
-          I'm a junior at <span>Brown University</span> majoring in{" "}
+          I'm a senior at <span>Brown University</span> majoring in{" "}
           <span>computer science</span> and <span>applied math</span>. My
           passion in tech is to solve problems by creating softwares driven by{" "}
-          <span>data science</span> and <span>human–computer interaction</span>.
+          <span>machine learning</span> and <span>human–computer interaction</span>.
         </p>
         <p>
-          This past summer, I was a <span>software engineering intern</span> at
-          Johnson & Johnson. Currently, I'm a <span>researcher</span> at Brown
-          AI Lab and the <span>co-president</span> of China Care Brown. I'm also
-          a <span>teaching assistant</span> for master's course DATA1050: Data
-          Engineering.
+          In the past two summers, I was a <span>software engineering intern</span> at
+          Facebook (2020) and Johnson & Johnson (2019). Currently, I'm a <span>teaching assistant</span> for 
+          CSCI 1470: Deep Learning and the <span>dev team co-lead</span> for Hack@Brown.
         </p>
         <p>
           Things I like to do in my free time include cooking, working out,

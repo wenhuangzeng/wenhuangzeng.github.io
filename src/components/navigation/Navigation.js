@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styles from "./Navigation.module.scss"
+import resumePDF from '../../../static/Resume.pdf';
 
 const Navigation = props => {
   const activeTab = props.activeTab
@@ -22,7 +23,7 @@ const Navigation = props => {
           <Link to="/projects">{projectTab}</Link>
         </li>
         <li>
-          <a href="#" aria-label="Resume">
+          <a href="Resume.pdf" target="_blank" aria-label="Resume">
             {<mark>RESUME</mark>}
           </a>
         </li>
