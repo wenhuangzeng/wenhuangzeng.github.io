@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /projects
+Sitemap: https://www.whzeng.com/sitemap.xml
+Host: https://www.whzeng.com
